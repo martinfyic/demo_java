@@ -38,7 +38,9 @@ public class Cliente {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
-    
+    public String getClienteInfo() {
+        return "Nombre: " + this.getNombreCompleto() + ", Email: " + email + ", Telefono: " + telefono;
+    }
     
     
 
